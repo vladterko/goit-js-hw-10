@@ -43,7 +43,7 @@ function murkup(arr) {
     const languages = Object.values(element.languages).join(', ');        
         if (arr.length === 1) {
             countryList.innerHTML = '';
-            countryInfo.innerHTML = 
+            countryInfo.innerHTML = '';
             `<div class="country-info">
             <div class="title">
                 <img class="flag-img" src="${flags}" alt="${countryName}" width="40px" heigth="20px" />
